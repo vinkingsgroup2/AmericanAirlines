@@ -1,0 +1,262 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4013585600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Users  should able to Carry on bags using Travel information",
+        "description": "",
+        "id": "users-ability-to-carry-on-bags;users--should-able-to-carry-on-bags-using-travel-information",
+        "after": [
+          {
+            "result": {
+              "duration": 1822850200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5946451800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browse to AmericanAirlines homepage",
+            "match": {
+              "location": "HotelsStepDef.browse_to_AmericanAirlines_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 619393000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Travel information",
+            "match": {
+              "location": "BagsStepDef.click_on_Travel_information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 310103600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Bags",
+            "match": {
+              "location": "BagsStepDef.click_on_Bags()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3662803500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Carry on bags",
+            "match": {
+              "location": "BagsStepDef.carry_on_bags()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Users ability to Carry on bags",
+    "description": "",
+    "id": "users-ability-to-carry-on-bags",
+    "keyword": "Feature",
+    "uri": "Bags.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@americanairlines"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3023724600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should able to choose hotel using plan travel",
+        "description": "",
+        "id": "users-ability-to-choose-hotel;user-should-able-to-choose-hotel-using-plan-travel",
+        "after": [
+          {
+            "result": {
+              "duration": 787199600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6600876500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browse to AmericanAirlines homepage",
+            "match": {
+              "location": "HotelsStepDef.browse_to_AmericanAirlines_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 204872100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Plan Travel",
+            "match": {
+              "location": "HotelsStepDef.click_on_Plan_Travel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 241408600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on hotels",
+            "match": {
+              "location": "HotelsStepDef.click_on_hotels()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10052047100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "navigate to hotelBooking page",
+            "match": {
+              "location": "HotelsStepDef.navigate_to_hotelBooking_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103413400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Select city where you like to go",
+            "match": {
+              "location": "HotelsStepDef.select_city_where_you_like_to_go()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66812000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on calender",
+            "match": {
+              "location": "HotelsStepDef.click_on_calender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89953000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click Check in date",
+            "match": {
+              "location": "HotelsStepDef.click_Check_in_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63231100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click Check out date",
+            "match": {
+              "location": "HotelsStepDef.click_Check_out_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8800266600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click Search",
+            "match": {
+              "location": "HotelsStepDef.click_Search()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Users ability to choose hotel",
+    "description": "",
+    "id": "users-ability-to-choose-hotel",
+    "keyword": "Feature",
+    "uri": "Hotels.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@americanairlines"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
