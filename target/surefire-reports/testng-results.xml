@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="47133" started-at="2020-08-19T05:08:12Z" finished-at="2020-08-19T05:09:00Z">
+  <suite name="Suite" duration-ms="105892" started-at="2020-08-19T19:47:35Z" finished-at="2020-08-19T19:49:21Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:bdd.runners.RunnerClass@737996a0]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:bdd.runners.RunnerClass@234bef66]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="47133" started-at="2020-08-19T05:08:12Z" finished-at="2020-08-19T05:09:00Z">
+    <test name="Test" duration-ms="105892" started-at="2020-08-19T19:47:35Z" finished-at="2020-08-19T19:49:21Z">
       <class name="bdd.runners.RunnerClass">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:bdd.runners.RunnerClass@737996a0]" name="setUpClass" is-config="true" duration-ms="180" started-at="2020-08-19T01:08:12Z" finished-at="2020-08-19T01:08:13Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:bdd.runners.RunnerClass@234bef66]" name="setUpClass" is-config="true" duration-ms="259" started-at="2020-08-19T15:47:35Z" finished-at="2020-08-19T15:47:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:bdd.runners.RunnerClass@737996a0]" name="feature" duration-ms="16564" started-at="2020-08-19T01:08:13Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-08-19T01:08:29Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:bdd.runners.RunnerClass@234bef66]" name="feature" duration-ms="13095" started-at="2020-08-19T15:47:36Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-08-19T15:47:49Z">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:bdd.runners.RunnerClass@737996a0]" name="feature" duration-ms="30050" started-at="2020-08-19T01:08:29Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-08-19T01:08:59Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:bdd.runners.RunnerClass@234bef66]" name="feature" duration-ms="17718" started-at="2020-08-19T15:47:49Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-08-19T15:48:06Z">
           <params>
             <param index="0">
               <value>
@@ -36,11 +36,114 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:bdd.runners.RunnerClass@737996a0]" name="writeExtentReport" is-config="true" duration-ms="11" started-at="2020-08-19T01:08:59Z" finished-at="2020-08-19T01:08:59Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:bdd.runners.RunnerClass@234bef66]" name="feature" duration-ms="16053" started-at="2020-08-19T15:48:06Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-08-19T15:48:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:bdd.runners.RunnerClass@234bef66]" name="feature" duration-ms="58280" started-at="2020-08-19T15:48:22Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-08-19T15:49:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vacation]]>
+              </value>
+            </param>
+          </params>
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Golden Nugget Las Vegas Hotel and Casino')]"}
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-GKDU2M4', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\19292\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58347}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ab4a5136af2dfeb7fa2f92489139bd4f
+*** Element info: {Using=xpath, value=//h3[contains(text(),'Golden Nugget Las Vegas Hotel and Casino')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Golden Nugget Las Vegas Hotel and Casino')]"}
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-GKDU2M4', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\19292\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58347}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ab4a5136af2dfeb7fa2f92489139bd4f
+*** Element info: {Using=xpath, value=//h3[contains(text(),'Golden Nugget Las Vegas Hotel and Casino')]}
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Golden Nugget Las Vegas Hotel and Casino')]"}
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-GKDU2M4', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\19292\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58347}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ab4a5136af2dfeb7fa2f92489139bd4f
+*** Element info: {Using=xpath, value=//h3[contains(text(),'Golden Nugget Las Vegas Hotel and Casino')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at bdd.AmericanAirlines.PageAction.AmericanAirlinesVacationpackagePageAction.SelectPackage(AmericanAirlinesVacationpackagePageAction.java:86)
+	at bdd.stepDef.AmericanAirlinesSteps.select_desired_package(AmericanAirlinesSteps.java:52)
+	at ✽.And Select desired package(vacation.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:bdd.runners.RunnerClass@234bef66]" name="writeExtentReport" is-config="true" duration-ms="15" started-at="2020-08-19T15:49:21Z" finished-at="2020-08-19T15:49:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeExtentReport -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:bdd.runners.RunnerClass@737996a0]" name="tearDownClass" is-config="true" duration-ms="258" started-at="2020-08-19T01:08:59Z" finished-at="2020-08-19T01:09:00Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:bdd.runners.RunnerClass@234bef66]" name="tearDownClass" is-config="true" duration-ms="360" started-at="2020-08-19T15:49:21Z" finished-at="2020-08-19T15:49:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

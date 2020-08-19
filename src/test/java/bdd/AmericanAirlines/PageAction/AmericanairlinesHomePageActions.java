@@ -39,6 +39,8 @@ public class AmericanairlinesHomePageActions {
 		AmericanairlinesHomePageLocatorsObj.lnkhotels.click();
 
 }
+	
+	
 
 		
 	}
