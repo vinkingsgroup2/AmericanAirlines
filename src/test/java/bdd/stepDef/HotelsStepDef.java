@@ -1,28 +1,37 @@
 package bdd.stepDef;
 
-import bdd.AmericanAirlines.PageAction.AmericanairlinesHomePageActions;
+
+import bdd.AmericanAirlines.PageAction.AAHomePageActions;
+
+import bdd.AmericanAirlines.PageAction.AmericanairlinesalalaminHomePageActions;
 import bdd.AmericanAirlines.PageAction.HotelBookingPageActions;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 
 public class HotelsStepDef {
-	AmericanairlinesHomePageActions AmericanairlinesHomePageActionsObj=new AmericanairlinesHomePageActions();
+	AmericanairlinesalalaminHomePageActions AmericanairlinesHomePageActionsObj=new AmericanairlinesalalaminHomePageActions();
 	HotelBookingPageActions HotelBookingPageActionsObj=new HotelBookingPageActions();
-	
-	@Given("^Browse to AmericanAirlines homepage$")
-	public void browse_to_AmericanAirlines_homepage() throws Throwable {
-		AmericanairlinesHomePageActionsObj.loadAmericanairlinesHomepage();
-	 
-	}
-
-	@When("^Click on Plan Travel$")
-	public void click_on_Plan_Travel() throws Throwable {
-		AmericanairlinesHomePageActionsObj.clickPlanTravel();
-	}
+	AAHomePageActions AAHomePageActionsobj = new AAHomePageActions();
+//	@Given("^Browse to AmericanAirlines homepage$")
+//	public void browse_to_AmericanAirlines_homepage() throws Throwable {
+//		AmericanairlinesHomePageActionsObj.loadAmericanairlinesHomepage();
+//	 
+//	}
+//
+//	@When("^Click on Plan Travel$")
+//	public void click_on_Plan_Travel() throws Throwable {
+//		AmericanairlinesHomePageActionsObj.clickPlanTravel();
+//	}
 
 	@When("^Click on hotels$")
 	public void click_on_hotels() throws Throwable {
 		AmericanairlinesHomePageActionsObj.clickHotel();
+	}
+	
+	@When("^Click on Plan Travel$")
+	public void click_on_Plan_Travel() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		AAHomePageActionsobj.clickPlanTravel();
 	}
 	@When("^navigate to hotelBooking page$")
 	public void navigate_to_hotelBooking_page() throws Throwable {

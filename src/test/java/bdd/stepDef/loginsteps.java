@@ -2,8 +2,9 @@ package bdd.stepDef;
 
 
 
+
 import bdd.AmericanAirlines.PageAction.AmericanAirlinesLoginPageAction;
-import bdd.AmericanAirlines.PageAction.AmericanairlinesHomePageActions;
+
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -12,7 +13,7 @@ public class loginsteps {
 
 	AmericanAirlinesLoginPageAction AmericanAirlinesLoginPageActionobj = new AmericanAirlinesLoginPageAction();
 
-	AmericanairlinesHomePageActions  AmericanAirlinesHomePageActionsObj = new AmericanairlinesHomePageActions ();
+	//AmericanairlinesHomePageActions  AmericanAirlinesHomePageActionsObj = new AmericanairlinesHomePageActions ();
 	
 
 

@@ -10,17 +10,17 @@ import bdd.utilities.SetupDriver;
 
 
 
-public class AmericanairlinesHomePageActions {
+public class AmericanairlinesalalaminHomePageActions {
 	
 
-	AmericanairlinesHomePageLocators AmericanairlinesHomePageLocatorsObj;
+	AmericanairlinesHomePageLocators AmericanairlinesalaminHomePageLocatorsObj;
 
 	
-	public AmericanairlinesHomePageActions(){
+	public AmericanairlinesalalaminHomePageActions(){
 		
-		AmericanairlinesHomePageLocatorsObj = new AmericanairlinesHomePageLocators();
+		AmericanairlinesalaminHomePageLocatorsObj = new AmericanairlinesHomePageLocators();
 		
-		PageFactory.initElements(SetupDriver.driver, AmericanairlinesHomePageLocatorsObj);
+		PageFactory.initElements(SetupDriver.driver, AmericanairlinesalaminHomePageLocatorsObj);
 	}
 
 	public void loadAmericanairlinesHomepage(){
@@ -32,11 +32,11 @@ public class AmericanairlinesHomePageActions {
 	
 	public void clickPlanTravel() {
 		
-		AmericanairlinesHomePageLocatorsObj.lnkPlanTravel.click();
+		AmericanairlinesalaminHomePageLocatorsObj.lnkPlanTravel.click();
 		}
 
 	public void clickHotel() {
-		AmericanairlinesHomePageLocatorsObj.lnkhotels.click();
+		AmericanairlinesalaminHomePageLocatorsObj.lnkhotels.click();
 
 }
 	
