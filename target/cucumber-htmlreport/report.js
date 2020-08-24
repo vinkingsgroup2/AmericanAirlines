@@ -17,7 +17,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 4013585600,
+  "duration": 3909180800,
   "status": "passed"
 });
 formatter.scenario({
@@ -52,32 +52,32 @@ formatter.match({
   "location": "HotelsStepDef.browse_to_AmericanAirlines_homepage()"
 });
 formatter.result({
-  "duration": 5946451800,
+  "duration": 4320191600,
   "status": "passed"
 });
 formatter.match({
   "location": "BagsStepDef.click_on_Travel_information()"
 });
 formatter.result({
-  "duration": 619393000,
+  "duration": 122791100,
   "status": "passed"
 });
 formatter.match({
   "location": "BagsStepDef.click_on_Bags()"
 });
 formatter.result({
-  "duration": 310103600,
+  "duration": 13651700100,
   "status": "passed"
 });
 formatter.match({
   "location": "BagsStepDef.carry_on_bags()"
 });
 formatter.result({
-  "duration": 3662803500,
+  "duration": 904134900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1822850200,
+  "duration": 721419500,
   "status": "passed"
 });
 formatter.uri("Hotels.feature");
@@ -99,7 +99,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 3023724600,
+  "duration": 3013309200,
   "status": "passed"
 });
 formatter.scenario({
@@ -159,67 +159,67 @@ formatter.match({
   "location": "HotelsStepDef.browse_to_AmericanAirlines_homepage()"
 });
 formatter.result({
-  "duration": 6600876500,
+  "duration": 4220059600,
   "status": "passed"
 });
 formatter.match({
   "location": "HotelsStepDef.click_on_Plan_Travel()"
 });
 formatter.result({
-  "duration": 204872100,
+  "duration": 108456000,
   "status": "passed"
 });
 formatter.match({
   "location": "HotelsStepDef.click_on_hotels()"
 });
 formatter.result({
-  "duration": 241408600,
+  "duration": 4546208400,
   "status": "passed"
 });
 formatter.match({
   "location": "HotelsStepDef.navigate_to_hotelBooking_page()"
 });
 formatter.result({
-  "duration": 10052047100,
+  "duration": 3299121700,
   "status": "passed"
 });
 formatter.match({
   "location": "HotelsStepDef.select_city_where_you_like_to_go()"
 });
 formatter.result({
-  "duration": 103413400,
+  "duration": 83442100,
   "status": "passed"
 });
 formatter.match({
   "location": "HotelsStepDef.click_on_calender()"
 });
 formatter.result({
-  "duration": 66812000,
+  "duration": 93740300,
   "status": "passed"
 });
 formatter.match({
   "location": "HotelsStepDef.click_Check_in_date()"
 });
 formatter.result({
-  "duration": 89953000,
+  "duration": 94670500,
   "status": "passed"
 });
 formatter.match({
   "location": "HotelsStepDef.click_Check_out_date()"
 });
 formatter.result({
-  "duration": 63231100,
+  "duration": 44014700,
   "status": "passed"
 });
 formatter.match({
   "location": "HotelsStepDef.click_Search()"
 });
 formatter.result({
-  "duration": 8800266600,
+  "duration": 3880803100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 787199600,
+  "duration": 774829900,
   "status": "passed"
 });
 });
