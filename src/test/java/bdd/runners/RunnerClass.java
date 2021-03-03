@@ -12,8 +12,8 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(features = { "src/test/resources/FeatureFiles" }, glue = { "bdd.stepDef",
 	"bdd.utilities" }, tags = { "@regression" }, plugin = { "pretty", "html:target/cucumber-htmlreport",
-			"json:target/cucumber-report.json",
-			"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html" }, monochrome = true)
+	"json:target/cucumber-report.json",
+	"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html" }, monochrome = true)
 
 public class RunnerClass extends AbstractTestNGCucumberTests {
 
